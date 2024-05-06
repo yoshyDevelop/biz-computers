@@ -1,31 +1,23 @@
 import React from 'react';
 import { MDBCarousel, MDBCarouselItem, MDBCarouselCaption } from 'mdb-react-ui-kit';
-
+import slider1 from "../assets/slider1.png";
+import slider2 from "../assets/slider2.png";
+import slider3 from "../assets/slider3.png";
 export default function MainSlider() {
   return (
     <MDBCarousel showIndicators showControls fade>
       <MDBCarouselItem itemId={1}>
-        <img src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg' className='d-block w-100' alt='...' />
-        <MDBCarouselCaption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </MDBCarouselCaption>
+        <img src={slider1} className='d-block w-100' alt='...' />
       </MDBCarouselItem>
 
       <MDBCarouselItem itemId={2}>
-        <img src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg' className='d-block w-100' alt='...' />
-        <MDBCarouselCaption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </MDBCarouselCaption>
+        <img src={slider2} className='d-block w-100' alt='...' />
+        
       </MDBCarouselItem>
 
       <MDBCarouselItem itemId={3}>
-        <img src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg' className='d-block w-100' alt='...' />
-        <MDBCarouselCaption>
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </MDBCarouselCaption>
+        <img src={slider3} className='d-block w-100' alt='...' />
+        
       </MDBCarouselItem>
     </MDBCarousel>
   );

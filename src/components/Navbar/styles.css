@@ -1,3 +1,12 @@
 .nav-link .active {
-    color: red; /* Cambia esto a lo que quieras */
+    color: #319ad5!important; /* Cambia esto a lo que quieras */
 }
+
+.nav-link a {
+    color: #959594!important;
+}
+
+.collapse-content {
+    width: 100%;
+}
+

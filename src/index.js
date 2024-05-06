@@ -16,7 +16,10 @@ import NotFound from "./pages/NotFound";
 import Home from "./pages/Home";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+
 import ProductDetail from "./pages/ProductDetail";
+import ShoppingCart from "./pages/ShoppingCart";
+import Register from "./pages/Register";
 
 const router = createBrowserRouter([
   {
@@ -58,6 +61,14 @@ const router = createBrowserRouter([
       {
         path: "signup",
         element: <SignUp />,
+      },
+      {
+        path: "register",
+        element: <Register />,
+      },
+      {
+        path: "cart",
+        element: <ShoppingCart />,
       },
     ]
   },
